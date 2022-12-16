@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+html,body {
+    height: 100%;
+}
+
+
+
+.sidebar {
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    background-image: linear-gradient(to bottom, #5C2008, #A83B0F ) ;
+}
+
+.sidebar-pos {
+    position: absolute;  
+    transform: translateY(30%);
+}
+
+.img-sidebar {text-align: center;} 
+
+.img-sidebar img{
+  width: 50%;  
+  border: 4px solid #5C2008;
+  border-radius: 70%;  
+}
+
+.menu {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.menu a{
+    color:white;
+    opacity: .6;
+    font-size: 19px;
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+
+.menu a.exp:hover{
+    opacity: 1;
+}
+
+.menu a.selected:hover{
+    opacity: 1;
+
+}
+
+.menu a.projeto:hover {
+    opacity: 1;
+}
+
+.content {
+    position: absolute;
+    left: 20%;
+    width: 80%;
+    height: 100%;
+    overflow-y: auto;
+    padding: 0 3%; 
+}
+
+
+
+section.descricao {
+    position: absolute;
+    top: 35%;
+    
+}
+
+section.descricao h2{
+    color: #000;
+    font-size: 46px;
+
+    
+}
+
+section.descricao h2 > span,
+section.descricao h3 > span {
+    color: #A83B0F;
+}
+
+section.descricao h3 {
+    margin: 15px 0;
+    color:  rgb(59, 59, 59);
+    font-size: 26px;
+}
+
+section.descricao p{
+    color: dimgrey;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+section.inspire {
+    position: absolute;
+}
+section.inspire{
+    font-size: 20px;
+    margin-top: 400px;
+    color: grey;    
+    transform: translateY(-50%)
+}
+
+section.project {
+    position: absolute;
+
+    
+}
+
+section.project {
+    font-size: 20px;
+    margin-top: 400px;
+    color: grey;
+    transform: translateY(-50%);
+}
+
+#meio {
+    margin-top: 200px;
+}
+
+#area #formulario {
+    position: absolute;
+    display: block;
+
+}
+
+fieldset {
+    width: 300px;
+    height: 250px;
+}
+
+legend
+  {
+    font-style:bold;
+    font-family: “Segoe UI”,”Arial”,”Times New Roman”;
+  }
+
+  #formulario label {
+    position:absolute;
+    left:19px;
+    margin-right:5px;
+  }
+  
+
+  #formulario input.campo_nome {
+    position:absolute;
+    left:95px;
+    top:23px;
+    width:225px;
+  }
+  #formulario input.campo_email {
+    position:absolute;
+    left:9px;
+    margin-top:2px;
+    width:225px;
+  }
+  
+
+
+.icons-social {
+    margin-top: 20px;
+    
+}
+
+.icons-social a {
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    margin-top: 150px;
+    margin-left: 520px;
+    background-color: rgba(196, 180, 180, 0.842);
+    border-left: 3px solid #A83B0F;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
